@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</head>
+<body>
+    <main>
+        <Header class="cabecalho">
+            <nav class="cabecalho-links">
+                <a href="#banner"><p>SOBRE MIM</p></a>
+                <a href="#skills"><p>SKILLS</p></a>
+                <a href="#hobbies"><p>HOBBIES</p></a>
+                <a href="#formacao"><p>FORMAÇÃO</p></a>
+                <a href="#projetos"><p>PROJETOS</p></a>
+                <a href="#formulario"><p>CONTATO</p></a> 
+            </nav>
+        </Header>
+        <section class="banner" id="banner">
+            <div class="banner-main">
+            <div class="description">
+                <h4>Olá, me chamo <span>Paulo Ricardo</span> e atualmente desenvo sites</h4>
+                <p>Atualmente, busco me aperfeiçoar em front-end e UX/UI Design, além de adquirir conhecimento em gestão ágil</p>
+                <div class="redes-sociais">
+                    <a href="https://www.linkedin.com/in/pauloricardo8/" target="_blank"><img src="assets/linkedin.svg" alt="linkedin"></a>
+                    <a href="https://github.com/prsousa8" target="_blank"><img src="assets/github.svg" alt="github"></a>
+                    <a href="https://www.instagram.com/pauloricardo_176/" target="_blank"><img src="assets/instagram.svg" alt="instagram"></a>
+                </div>
+            </div>
+            <img id="image-profile" src="assets/image-perfil.svg" alt="imagem de perfil">
+        </div>
+        </section>
+        <section class="sobre-mim" id="sobre-mim">
+            <div class="sobre-mim-description">
+                <h2>Sobre mim</h2>
+                <p>Tenho 23 anos e sou graduando em Engenharia de Computação. Minha paixão é descobrir coisas novas. Todos os dias, encontro algo diferente que me fascina, seja no mundo da programação, dos sistemas complexos ou das inovações tecnológicas. Estudar engenharia de computação tem sido uma jornada desafiadora e gratificante. Gosto de mergulhar nos mistérios dos algoritmos, explorar novas linguagens de programação e entender como os sistemas funcionam por trás das telas. Minha curiosidade natural me impulsiona a aprender constantemente e a buscar soluções criativas para problemas complexos.</p>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div class="skills-description">
+                <h2>Skills</h2>
+                <div class="skills-icons-box">
+                    <div class="icon">
+                        <img src="assets/figma.svg" alt="figma">
+                        <p>FIGMA</p>
+                    </div>
+                    <div class="icon">
+                        <img src="assets/html.svg" alt="html">
+                        <p>HTML</p>
+                    </div>
+                    <div class="icon">
+                        <img src="assets/css.svg" alt="css">
+                        <p>CSS</p>
+                    </div>
+                    <div class="icon">
+                        <img src="assets/javascript.svg" alt="javascript">
+                        <p>JAVASCRIPT</p>
+                    </div>
+                    <div class="icon">
+                        <img src="assets/java.svg" alt="java">
+                        <p>JAVA</p>
+                    </div>
+                    <div class="icon">
+                        <img src="assets/postgresql.svg" alt="postgresql">
+                        <p>POSTGRESQL</p>
+                    </div>
+                    <div class="icon">
+                        <img src="assets/python.svg" alt="python">
+                        <p>PYTHON</p>
+                    </div>
+                    <div class="icon">
+                        <img src="assets/mongodb.svg" alt="mongodb">
+                        <p>MONGODB</p>
+                    </div>
+                    <div class="icon">
+                        <img src="assets/react.svg" alt="react">
+                        <p>REACT</p>
+                    </div>
+                    <div class="icon">
+                        <img src="assets/mysql.svg" alt="mysql">
+                        <p>MYSQL</p>
+                    </div>
+                    <div class="icon">
+                        <img src="assets/sqlite.svg" alt="sqlite">
+                        <p>SQLITE</p>
+                    </div>
+                    <div class="icon">
+                        <img src="assets/csharp.svg" alt="csharp">
+                        <p>C#</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="hobbies" id="hobbies">
+            <div class="hobbies-description">
+                <h2>Hobbies</h2>
+                <div class="hobbies-icons-box">
+                    <div class="icon">
+                        <img src="assets/shopping.svg" alt="shopping">
+                        <p>SHOPPING</p>
+                    </div>
+                    <div class="icon">
+                        <img src="assets/ler.svg" alt="ler">
+                        <p>LER</p>
+                    </div>
+                    <div class="icon">
+                        <img src="assets/design.svg" alt="design">
+                        <p>DESIGN</p>
+                    </div>
+                    <div class="icon">
+                        <img src="assets/musica.svg" alt="musica">
+                        <p>MÚSICA</p>
+                    </div>
+                    <div class="icon">
+                        <img src="assets/filmes.svg" alt="filmes">
+                        <p>FILMES</p>
+                    </div>
+                    <div class="icon">
+                        <img src="assets/codar.svg" alt="codar">
+                        <p>CODAR</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="formacao" id="formacao">
+            <div class="formacao-description">
+                <h2>Formação</h2>
+                <div class="formacao-box">
+                    <div class="box">
+                        <img src="assets/UFC-logo.svg" alt="UFC-logo">
+                        <p class="box-title">ENGENHARIA DE COMPUTAÇÃO</p>
+                        <p>2020 - até o momento</p>
+                    </div>
+                    <div class="box">
+                        <img src="assets/alura-logo.svg" alt="alura-logo">
+                        <p class="box-title">FORMAÇÃO FRONT-END</p>
+                        <p>Jan - até o momento, 2024</p>
+                    </div>
+                    <div class="box">
+                        <img src="assets/google-logo.svg" alt="google-logo">
+                        <p class="box-title">DATA ANALYSIS</p>
+                        <p>Jul - Dez, 2023</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="projetos" id="projetos">
+            <div class="projetos-description">
+                <h2>Projetos</h2>
+                <div class="projetos-box">
+                    <div class="projeto-box">
+                        <img src="assets/projeto_random_number.svg" alt="projeto_random_number">
+                        <p class="projeto-title">PROJETO DO NÚMERO SECRETO</p>
+                        <p>Projeto consiste em tentar adivinhar um número com base das sugestões de erro e acerto emitidos a cada tentativa submetida no site.</p>
+                    </div>
+                    <div class="projeto-box">
+                        <img src="assets/Logo_Tatucash.svg" alt="Logo_Tatucash">
+                        <p class="projeto-title">PROJETO TATUCASH</p>
+                        <p>Projeto destinado a oferecer educação financeira para pessoas de classe baixa que não conseguem administrar suas finanças a longo prazo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="formulario" id="formulario">
+            <div class="formulario-description">
+                <h2>Contato</h2>
+                <form id="contact-form">
+                    <div id="contact-form-field">
+                        <label for="nome"><p>NOME</p></label><br>
+                        <input type="text" id="nome" name="nome" required><br><br>
+
+                        <label for="email"><p>EMAIL</p></label><br>
+                        <input type="email" id="email" name="email" required><br><br>
+
+                        <label for="assunto"><p>ASSUNTO</p></label><br>
+                        <input type="text" id="assunto" name="assunto" required><br><br>
+
+                        <label for="mensagem"><p>MENSAGEM</p></label><br>
+                        <textarea id="mensagem" name="mensagem" rows="5" required></textarea><br><br>
+                    </div>
+                    <input id="enviar" type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+        <footer>
+            <p>DESENVOLVIDO POR PAULO RICARDO</p>
+        </footer>
+    </main>
+    <script src="form.js"></script>
+</body>
+</html>
