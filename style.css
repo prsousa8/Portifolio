@@ -340,5 +340,21 @@ footer {
         width: 50%;
     }
 }
+@media(max-width: 440px){
+    Header{
+        display: none;
+    }
+    .description h4 {
+        font-weight: 400;
+        font-size: 30px;
+    }
+    h2{
+        font-size: 25px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+}
 
 
