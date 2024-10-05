@@ -345,6 +345,9 @@ footer {
     .dropdown{
         display: block;
     }
+    .dropdown p{
+        color: blue;
+    }
     .mainmenubtn {
         border: none;
         cursor: pointer;
