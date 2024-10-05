@@ -341,45 +341,4 @@ footer {
     }
 }
 
-@media(max-width: 440px) {
-    .dropdown{
-        display: block;
-    }
-    .dropdown p{
-        color: blue;
-    }
-    .mainmenubtn {
-        border: none;
-        cursor: pointer;
-        padding:20px;
-        margin-top:20px;
-    }
-    .mainmenubtn:hover {
-        background-color: blue;
-        }
-    .dropdown {
-        display: inline-block;
-
-    }
-    .dropdown img{
-        padding: 0;
-    }
-    .dropdown-child {
-        display: none;
-        background-color: skyblue;
-        min-width: 100px;
-    }
-    .dropdown-child a {
-        color: blue;
-        padding: 10px;
-        text-decoration: none;
-        display: block;
-    }
-    .dropdown:hover .dropdown-child {
-        display: block;
-    }
-    .cabecalho-links {
-        display: none;
-    }
-}
 
